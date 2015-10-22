@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Ganalytics- Standard</title>
+
+    <!-- fonts -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;lang=en" rel=
+            "stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:300,400,500&amp;lang=en" rel=
+            "stylesheet">
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="ganalytics">
+
+<md-toolbar class="main-header" layout="column">
+    <h1 class="product-logo header-h1">
+        <a href="#">
+            <img src="http://placehold.it/160x30?text=logo" alt=""/>
+        </a>
+    </h1>
+    <nav class="main-navigation" layout="row">
+    <md-menu-bar>
+        <md-menu>
+            <button>Home</button>
+        </md-menu>
+        <md-menu>
+            <button>Link2</button>
+        </md-menu>
+        <md-menu>
+            <button>Link3</button>
+        </md-menu>
+        <md-menu>
+            <button>Link4</button>
+        </md-menu>
+    </md-menu-bar>
+        <div class="header-cta">
+            <a href="">
+                <md-button class="md-raised md-f4f4f4">Primary Button</md-button>
+            </a>
+        </div>
+        </nav>
+</md-toolbar>
+
+<!-- Main -->
+<div class="main" role="main " layout="column">
+
+    <!-- Hero -->
+    <section class="section section-hero">
+
+        <div class="site-width">
+            <div layout="row">
+                <div flex offset-gt-sm="60">
+                    <div class="section-hero-copy">
+                    <h1 class="section-hero-h1">Hero Headline</h1>
+                    <p class="font-large">This is the flex offset 60 - should be 40 in width. Labitur deleniti inimicus no has. Esse fabellas vis cu. Diam reque at pro, usu cu tota eirmod tibique. Eam solum fierent in, vix in tollit mucius.</p>
+                    <p><a href=""><md-button class="md-raised md-f4f4f4">Call to Action</md-button></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-hero-media">
+            <div class="hero-image hero-img">
+            </div>
+            <div class="card caption aaa">
+                <p class="name font-medim">name of the person</p>
+                <p class="role font-small"></p>
+            </div>
+        </div>
+
+        <div class="myfab" layout="row" layout-align="center center">
+            <md-button class="md-fab myfab" aria-label="Eat cake">
+                <!--<md-icon md-svg-src="img/icons/cake.svg"></md-icon>-->
+                <svg class="icon-fab-scroll" enable-background=
+                        "new 0 0 32 32" height="14px" version="1.1" viewbox="0 0 32 32" width="14px" x="5px"
+        xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink=
+                        "http://www.w3.org/1999/xlink" y="0px">
+        <polygon points="28.2,6.1 16,18.3 3.8,6.1 0,9.9 16,25.9 32,9.9"></polygon></svg>
+            </md-button>
+        </div>
+
+    </section>
+
+   <!-- Quote -->
+    <section class="section section-quote eeebg quotation quotation-extra">
+        <div class="site-width">
+            <blockquote>
+                Labitur deleniti inimicus no has. Esse fabellas vis cu. Diam reque at pro, usu cu tota eirmod tibique. Eam solum fierent in, vix in tollit mucius. Vulputate voluptatum ullamcorper ad nec, ei pri illum tacimates assentior.
+            </blockquote>
+            <cite class="font-medium">
+                <strong>Quote Author</strong>, Author's Postion, Company
+            </cite>
+        </div>
+    </section>
+
+    <section></section>
+    <section></section>
+    <section></section>
+</div>
+
+<!-- bower:js -->
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/angular-aria/angular-aria.min.js"></script>
+<script type="text/javascript" src="../bower_components/angular-material/angular-material.min.js"></script>
+<script src="../bower_components/angular-animate/angular-animate.min.js"></script>
+<!-- end bower -->
+
+<!-- ganalytics scripts -->
+<script src="app.js"></script>
+<!-- end ganalytics scripts -->
+
+</body>
+</html>
